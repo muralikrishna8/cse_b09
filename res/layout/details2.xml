@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ddd">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+		<TableRow
+		    android:id="@+id/tableRow1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/user_details1"
+		    android:layout_marginLeft="3dp" 
+		    android:layout_marginRight="3dp"
+		    android:layout_marginTop="3dp">
+		       <ImageView
+		           android:id="@+id/studentimage"
+		           android:layout_width="150dp"
+		           android:layout_height="150dp"
+		           android:contentDescription="@string/image"
+		           android:layout_gravity="center"
+		           android:src="@drawable/b091173" />
+	
+		       <LinearLayout
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:orientation="vertical"
+		           android:paddingRight="10dp" >
+		
+					<TextView
+					    android:id="@+id/name"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_gravity="fill_vertical"
+					    android:layout_marginLeft="4dp"
+					    android:layout_marginTop="7dp"
+					    android:text="@string/temp"
+					    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+					<TextView
+					    android:id="@+id/sirname"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="4dp"
+					    android:layout_marginTop="7dp"
+					    android:text="@string/temp"
+					    android:textAppearance="?android:attr/textAppearanceSmall" />
+					
+					<TextView
+					    android:id="@+id/fathername"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="4dp"
+					    android:layout_marginTop="7dp"
+					    android:text="@string/temp"
+					    android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+					<TextView
+					    android:id="@+id/mothername"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="4dp"
+					    android:layout_marginTop="7dp"
+					    android:text="@string/temp"
+					    android:textAppearance="?android:attr/textAppearanceSmall" />
+					
+					<TextView
+					    android:id="@+id/dob"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="4dp"
+					    android:layout_marginTop="7dp"
+					    android:text="@string/temp"
+					    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+            </TableRow>
+
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/contact"
+    	    android:orientation="vertical">
+		       
+			<TableRow 
+			    android:id="@+id/tableRow2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal"
+			    android:gravity="center" >
+			    <TextView
+			            android:id="@+id/cell"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="5dp"
+			            android:textColor="#ffffff"
+			            android:textStyle="bold"
+			            android:text="@string/cell"
+			            android:textIsSelectable="true"
+			            android:paddingTop="15dp"
+			            android:paddingBottom="10dp"
+			            android:layout_marginRight="10dp"
+			            android:layout_gravity="fill_vertical"
+			            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+			    <ImageView
+			        android:id="@+id/call_icon"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:paddingRight="7dp"
+			        android:src="@drawable/call_icon"
+			        android:contentDescription="@string/image" />
+			    
+			    <ImageView
+			        android:id="@+id/sms_icon"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:paddingRight="7dp"
+			        android:src="@drawable/sms_icon"
+			        android:contentDescription="@string/image" />
+			    
+			    <ImageView
+			        android:id="@+id/mail_icon"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:paddingRight="7dp"
+			        android:src="@drawable/mail_icon"
+			        android:contentDescription="@string/image" />
+			    
+			    <!--<ImageView
+			        android:id="@+id/imageView03"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:paddingRight="7dp"
+			        android:src="@drawable/contact_icon"
+			        android:contentDescription="@string/image" /> -->
+			    
+			    
+			</TableRow>
+	
+			<TextView
+			    android:id="@+id/email"
+			    android:layout_width="fill_parent"
+			    android:textColor="#ffffff"
+			    android:textStyle="bold"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_horizontal"
+			    android:layout_gravity="center"
+			    android:text="@string/email"
+			    android:textIsSelectable="true"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shadow_curved_corners"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp" >
+		       <TextView
+		            android:id="@+id/hno"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <TextView
+		            android:id="@+id/village"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <TextView
+		            android:id="@+id/mandal"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <TextView
+		            android:id="@+id/district"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <!-- <TextView
+		            android:id="@+id/pincode"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		 		-->
+ 		</LinearLayout>
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shadow_curved_corners"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp" > 		
+		        <TextView
+		            android:id="@+id/schoolname"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <TextView
+		            android:id="@+id/sschallticket"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		        <TextView
+		            android:id="@+id/caste"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:text="@string/temp"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

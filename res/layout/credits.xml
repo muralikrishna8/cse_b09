@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#E9E9E9">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/swamy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shadow_curved_corners" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logo_swamy"
+                android:padding="7dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/vamshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shadow_curved_corners" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/minion2" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="@string/data_vamshi" />
+        </TableRow>
+    	<LinearLayout
+        	android:id="@+id/murali"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/created_developed"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="10dp"
+	            android:textColor="#777"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:contentDescription="@string/app_name"
+		        android:src="@drawable/b091444"
+		        android:rotation="-5"
+		        android:layout_marginTop="5dp"
+		        android:background="@drawable/shadow_square"
+		        android:layout_marginBottom="10dp" />
+		    
+		    <TextView
+		        android:id="@+id/murali_id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/murali_id"
+		        android:layout_gravity="center_horizontal"
+		        android:textColor="#5286E2"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/gmail_mine"
+		        android:padding="10dp"
+		        android:textColor="#777777"
+		        android:layout_gravity="center_horizontal"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		<TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shadow_curved_corners" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/facebook"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/facebook_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fb_link"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="3dp"
+                android:textColor="#3498DB" />
+
+        </TableRow>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/source_code"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#777"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		<TableRow
+            android:id="@+id/github"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shadow_curved_corners" >
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/github"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/github_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/github_link"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="3dp"
+                android:textColor="#3498DB" />
+
+        </TableRow>	
+	</LinearLayout>
+</ScrollView>

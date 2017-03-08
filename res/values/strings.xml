@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSE_B09</string>
+    <string name="about_title">About - CSE_B09</string>
+    <string name="credits_title">Credits - CSE_B09</string>
+    <string name="action_faculty">CSE Faculty</string>
+    <string name="action_credits">Credits</string>
+	<string name="action_search">Search the student</string>
+    <string name="about_home">Click on search icon ..</string>
+    
+    <string name="about_app">Hey I\'m AAA the Awesome Alumni App for exclusively stylish branch of our campus CSE. \n
+        \nI\'m a crazy app that keeps you connected with our peers of CSE.</string>
+        
+    <string name="id_hint">Campus ID: B09xxxx</string>
+    <string name="pass_hint">Exam Password</string>
+    <string name="login_btn">login</string>
+	
+	
+    <string name="image">Image</string>
+    <string name="temp">Medium Text</string>
+    <string name="cell">Cell: 9912721636</string>
+    <string name="email">chinnafromcse2k9@gmail.com</string>
+    
+    <string name="source_code">For source code go to ...</string>
+    <string name="logo_swamy">Logo Designed by Swamy Yadav (B091578)</string>
+    <string name="data_vamshi">Data Provided by Vamshi Krishna (B091415)</string>
+    <string name="created_developed">App Created and Developed by</string>
+    <string name="murali_id">V. Murali Krishna_B091444</string>
+    <string name="gmail_mine">vmurali1444@gmail.com</string>
+    <string name="fb_link">http://www.facebook.com/vmurali1444</string>
+    <string name="github_link">https://github.com/muralikrishna8</string>
+    <string name="about">\t\tCSE_B09 app contains the details of 2009-2015 batch CSE student of RGUKT-Basar campus.\n\n
+        \t\tYou can Search about a student with any keyword like ID, Name, Fathername, DOB, Village or School etc.... \n\n
+        \t\tIt contains the latest details as of 2015 January. You can call, sms or mail to them using this app.</string>
+
+</resources>
